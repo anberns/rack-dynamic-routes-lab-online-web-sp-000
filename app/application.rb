@@ -15,7 +15,7 @@ class Application
         resp.status = 200
       else 
         resp.write "Item not found"
-        resp.status = 200
+        resp.status = 400
       end
         
     else 
