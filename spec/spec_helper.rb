@@ -1,7 +1,7 @@
 require_relative '../config/environment'
 require 'rack/test'
 
-RSpec.configure.each do |config|
+RSpec.configure do |config|
   
   config.color = true
 
