@@ -11,7 +11,10 @@ class Application
       item_instance = @@items.find {|i| i.name == item }
       
       if item_instance != nil 
-        resp.write ""
+        resp.write "#{item_instance.price"
+        resp.status = 200
+      else 
+        
     else 
       resp.write "Route not found"
       resp.status = 404
