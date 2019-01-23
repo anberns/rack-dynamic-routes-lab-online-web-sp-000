@@ -7,7 +7,7 @@ class Application
     if req.path.match(/items/)
       puts "huh"
     else 
-      req.status = 400
+      req.status = 404
     end
   end
 end
